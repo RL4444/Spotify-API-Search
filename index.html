@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+
+    <header>
+
+    <h1>Spotify Search</h1>
+    <div id="search-bar">
+            <input class="inputSearch" type="text" name="" value="">
+            <select class="select-type" name="">
+                    <option id="artist-filter" value="artist">artist</option>
+                    <option id="album-filter" value="album">album</option>
+            </select>
+            <button id="go" type="button" name="Go!"> Go!</button>
+    </div>
+    <div class="results-bar"></div>
+    <div class="no-results"><p>No results found - please check spelling</p></div>
+    </header>
+
+
+    <div id="container">
+        <div class="results">
+        </div>
+    </div>
+    <button id="morebutton" type="button" name="button">more searches</button>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
