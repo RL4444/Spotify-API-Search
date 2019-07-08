@@ -1,7 +1,7 @@
 (function() {
     var searchBar = $(".inputSearch");
     var artistFilter = $("#artist-filter");
-    var albumFilter = $("#album-filte");
+    var albumFilter = $("#album-filter");
     var selectType = $(".select-type");
     var goButton = $("#go");
     var resultsBar = $(".results-bar");
@@ -189,18 +189,3 @@
         }, 1000);
     }
 })();
-
-// function parseQueryStr(){
-//     var qs = location,search.slice(1);
-//     var nvs
-//
-// }
-
-//----checkScroll ofr infinite scroll-------
-
-// ----
-// in console
-//
-// $('document').height();
-// $('window').height();
-// $('document').scrollTop + $('window').height(); =
